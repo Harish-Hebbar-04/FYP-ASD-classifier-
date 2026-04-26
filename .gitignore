@@ -1,0 +1,7 @@
+.venv/
+venv/
+env/
+ENV/
+
+# Backup of the nested repo metadata (created when flattening ASD-complete)
+ASD-complete/.git-nested-backup/
