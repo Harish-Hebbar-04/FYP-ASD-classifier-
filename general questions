@@ -3,3 +3,9 @@
    The GPU is the fast worker, and CUDA is the instruction set that tells that worker how to do many jobs at the same time.
    So if your program has a big job, CUDA helps move the heavy part to the GPU so it can finish faster.
    That is why CUDA is commonly used for training machine learning models, image processing, and other tasks with lots of repeated calculations.
+
+2)Loading AI model
+  ViT was pre-trained on millions of images from the internet (called ImageNet) — it already "knows" what faces, objects, shapes look like
+  The original model could classify 1000 types of objects
+  The last layer (the "head") is replaced with a new one that only outputs 2 classes: ASD or Non-ASD
+  This technique is called Transfer Learning — reusing a smart model and fine-tuning it for a specific task
