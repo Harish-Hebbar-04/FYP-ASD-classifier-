@@ -1,0 +1,5 @@
+1)About CUDA(Compute Unified Device Architecture)
+   Think of CUDA as the translator and control system that helps your program use an NVIDIA GPU properly. 
+   The GPU is the fast worker, and CUDA is the instruction set that tells that worker how to do many jobs at the same time.
+   So if your program has a big job, CUDA helps move the heavy part to the GPU so it can finish faster.
+   That is why CUDA is commonly used for training machine learning models, image processing, and other tasks with lots of repeated calculations.
